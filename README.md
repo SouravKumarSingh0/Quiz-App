@@ -54,6 +54,11 @@ The Quiz App is a web application built with React that allows users to take qui
 - CSS3
 - SCSS
 
+## Deployment
+This app has been deployed on Netlify. You can access it using the following URL: 
+[Quiz App - Netlify](https://sourav-quiz-app.netlify.app/)
+
+
 ## Contributing
 
 Contributions are welcome! Feel free to submit pull requests or open issues for any bugs or feature requests.

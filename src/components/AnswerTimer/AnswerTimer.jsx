@@ -1,4 +1,5 @@
 import "./AnswerTimer.scss";
+
 import { useEffect, useState, useRef } from "react";
 
 function AnswerTimer({ duration, onTimeUp }) {
@@ -43,5 +44,6 @@ function AnswerTimer({ duration, onTimeUp }) {
     </div>
   );
 }
+
 
 export default AnswerTimer;
