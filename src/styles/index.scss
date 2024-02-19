@@ -1,0 +1,12 @@
+@import "./vars.scss";
+
+body {
+  font-family: monospace;
+  background: linear-gradient(135deg, #76bde0 0%, #0d3549 100%); // Updated body background color
+  color: $foreground;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0 40px;
+  height: 100vh;
+}

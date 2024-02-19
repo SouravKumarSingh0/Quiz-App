@@ -1,0 +1,29 @@
+@import '../../styles/vars.scss';
+
+$lightgreen: rgb(143, 236, 151);
+$orange: orange;
+$red: red;
+
+.answer-timer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 2px solid rgb(229, 180, 131);
+
+    .progress{
+        height: 7px;
+        transition-duration: 1s;
+        width: 100%;
+        transition-timing-function: linear;
+
+        background-color: $lightgreen;
+        &.warning {
+          background-color: $orange;
+        }
+        &.danger {
+          background-color: $red;
+        }
+        
+    }
+}
